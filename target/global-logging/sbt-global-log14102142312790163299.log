@@ -1,0 +1,107 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\Srikant\AppData\Local\Temp\idea.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\Srikant\AppData\Local\Temp\idea.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.9.8 (Amazon.com Inc. Java 11.0.21)
+[debug] Load.defaultLoad until apply took 158.739ms
+[debug]           Load.loadUnit: plugins took 100.7759ms
+[debug]           Load.loadUnit: defsScala took 0.24ms
+[debug] [Loading] Scanning directory X:\CS\Scala\ProductRec\project
+[debug]             Load.loadUnit: mkEval took 8.0124ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in X:\CS\Scala\ProductRec\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 37.7836 ms
+[info] loading settings for project productrec-build from idea.sbt ...
+[debug]               Load.resolveProject(productrec-build) took 53.6526ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id productrec-build, base: X:\CS\Scala\ProductRec\project, plugins: List(<none>))) took 101.0104ms
+[debug] [Loading] Done in X:\CS\Scala\ProductRec\project, returning: (productrec-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 2872.0635ms
+[debug]           Load.loadUnit: cleanEvalClasses took 6.876ms
+[debug]         Load.loadUnit(file:/X:/CS/Scala/ProductRec/project/, ...) took 2984.8764ms
+[debug]       Load.apply: load took 3147.9631ms
+[debug]       Load.apply: resolveProjects took 7.0002ms
+[debug]       Load.apply: finalTransforms took 64.2403ms
+[debug]       Load.apply: config.delegates took 20.6375ms
+[debug]       Load.apply: Def.make(settings)... took 523.4798ms
+[debug]       Load.apply: structureIndex took 122.7555ms
+[debug]       Load.apply: mkStreams took 1.9997ms
+[info] loading project definition from X:\CS\Scala\ProductRec\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 6123.6904ms
+[debug]     Load.loadUnit: defsScala took 0.0032ms
+[debug] [Loading] Scanning directory X:\CS\Scala\ProductRec
+[debug]       Load.loadUnit: mkEval took 0.3475ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 2.8845 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 52.3281ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: X:\CS\Scala\ProductRec, plugins: List(<none>))) took 57.1406ms
+[debug] [Loading] Done in X:\CS\Scala\ProductRec, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 1509.6445ms
+[debug]     Load.loadUnit: cleanEvalClasses took 7.8145ms
+[debug]   Load.loadUnit(file:/X:/CS/Scala/ProductRec/, ...) took 7643.3419ms
+[debug] Load.apply: load took 7688.4744ms
+[debug] Load.apply: resolveProjects took 0.1513ms
+[debug] Load.apply: finalTransforms took 31.6396ms
+[debug] Load.apply: config.delegates took 0.4799ms
+[debug] Load.apply: Def.make(settings)... took 95.3307ms
+[debug] Load.apply: structureIndex took 39.1918ms
+[debug] Load.apply: mkStreams took 0.0054ms
+[info] set current project to ProductRec (in build file:/X:/CS/Scala/ProductRec/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(; set ideaPort in Global := 60661 ; idea-shell, None, None)
+[debug] > Exec(set ideaPort in Global := 60661, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to ProductRec (in build file:/X:/CS/Scala/ProductRec/)
+[debug] > Exec(idea-shell, None, None)
